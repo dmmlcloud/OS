@@ -1,0 +1,1 @@
+cmd_/home/dmmlcloud/Desktop/lab3/mydriver.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/dmmlcloud/Desktop/lab3/mydriver.ko /home/dmmlcloud/Desktop/lab3/mydriver.o /home/dmmlcloud/Desktop/lab3/mydriver.mod.o ;  true
